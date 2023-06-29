@@ -32,6 +32,6 @@ Este proyecto es una aplicación de escritorio desarrollada en Python utilizando
 - Por defecto, la respuesta correcta se considera como la segunda opción de respuesta. Si desea cambiar la respuesta correcta a otra opción, puede modificar el código para reflejar su preferencia.
 
 ## Requisitos del sistema
-Python 3.x
-Biblioteca Tkinter
-Biblioteca PIL (Python Imaging Library)
+- Python 3.x
+- Biblioteca Tkinter
+- Biblioteca PIL (Python Imaging Library)
