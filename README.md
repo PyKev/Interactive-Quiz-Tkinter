@@ -1,4 +1,4 @@
-# Cuestionario_Tkinter
+# Cuestionario Interactivo con Tkinter
 Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. Este programa presenta una serie de preguntas a los usuarios y les permite seleccionar la respuesta correcta. Los usuarios también tienen la opción de personalizar las preguntas, las opciones de respuesta y las imágenes utilizadas en el cuestionario.
 
 ## Uso
