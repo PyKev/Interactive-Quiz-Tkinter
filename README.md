@@ -1,37 +1,38 @@
-# Cuestionario Interactivo con Tkinter
-Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. Este programa presenta una serie de preguntas a los usuarios y les permite seleccionar la respuesta correcta. Los usuarios también tienen la opción de personalizar las preguntas, las opciones de respuesta y las imágenes utilizadas en el cuestionario.
+# Interactive Quiz with Tkinter
 
-## Uso
-- Ejecute el código Python en un entorno de desarrollo compatible.
+This project is a desktop application developed in Python using the Tkinter library. This program presents a series of questions to users and allows them to select the correct answer. Users also have the option to customize the questions, answer options, and images used in the quiz.
 
-- Aparecerá una ventana principal titulada "Cuestionario" con un mensaje de bienvenida.
+## Usage
+- Run the Python code in a compatible development environment.
 
-- Haga clic en el botón "Empecemos!" para iniciar el cuestionario.
+- A main window titled "Cuestionario" (Quiz) will appear with a welcome message.
 
-- Se abrirá una nueva ventana con la primera pregunta y las opciones de respuesta.
+- Click the "Empecemos!" (Let's Start!) button to begin the quiz.
 
-- Seleccione la opción de respuesta que considere correcta haciendo clic en el botón correspondiente.
+- A new window will open with the first question and answer options.
 
-- Si la respuesta es correcta, se mostrará un mensaje informativo. De lo contrario, se mostrará un mensaje de error.
+- Select the answer option you believe is correct by clicking the corresponding button.
 
-- Haga clic en el botón "Siguiente" para avanzar a la siguiente pregunta.
+- If the answer is correct, an informative message will be displayed. Otherwise, an error message will be shown.
 
-- El proceso de presentación de preguntas, selección de respuestas y avance continúa hasta que se haya completado el cuestionario.
+- Click the "Siguiente" (Next) button to advance to the next question.
 
-- Cuando se haya respondido la última pregunta, se cerrarán las ventanas del cuestionario y la ventana principal.
+- The process of presenting questions, selecting answers, and advancing continues until the quiz is completed.
 
-## Personalización
-- Para personalizar las preguntas, las opciones de respuesta y las imágenes utilizadas en el cuestionario, puede modificar las listas en el código.
+- When the last question has been answered, the quiz windows and the main window will close.
 
-- Las preguntas se almacenan en la lista "questions". Puede cambiar el texto de las preguntas agregando o modificando elementos de esta lista.
+## Customization
+- To customize the questions, answer options, and images used in the quiz, you can modify the lists in the code.
 
-- Las opciones de respuesta se almacenan en las listas "answer1", "answer2" y "answer3". Puede cambiar el texto de las opciones de respuesta agregando o modificando elementos de estas listas.
+- The questions are stored in the "questions" list. You can change the text of the questions by adding or modifying elements in this list.
 
-- Las imágenes utilizadas en el cuestionario se almacenan en la lista "questions_images". Puede reemplazar las imágenes existentes con sus propias imágenes agregando o modificando elementos de esta lista. Asegúrese de que las imágenes estén ubicadas en la carpeta "images" o especifique la ruta de la carpeta de imágenes según sea necesario.
+- The answer options are stored in the "answer1", "answer2", and "answer3" lists. You can change the text of the answer options by adding or modifying elements in these lists.
 
-- Por defecto, la respuesta correcta se considera como la segunda opción de respuesta. Si desea cambiar la respuesta correcta a otra opción, puede modificar el código para reflejar su preferencia.
+- The images used in the quiz are stored in the "questions_images" list. You can replace the existing images with your own images by adding or modifying elements in this list. Make sure the images are located in the "images" folder or specify the path to the image folder as needed.
 
-## Requisitos del sistema
+- By default, the correct answer is considered as the second answer option. If you want to change the correct answer to a different option, you can modify the code to reflect your preference.
+
+## System Requirements
 - Python 3.x
-- Biblioteca Tkinter
-- Biblioteca PIL (Python Imaging Library)
+- Tkinter library
+- PIL (Python Imaging Library) library
